@@ -1,0 +1,31 @@
+.btns {
+    text-align: center;
+}
+
+.btnclass {
+    border-radius: 5px;
+    width: 160px;
+    height: 50px;
+    background: #8d7a79;
+    border: none;
+    transform: skew(-20deg);
+
+}
+
+.link-home {
+    text-decoration: none;
+    color: var(--bs-white);
+}
+  
+.link-home:hover{
+    color: rgb(209, 203, 203);
+}
+  
+.home-body {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(../../Images/banner.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}

@@ -1,0 +1,141 @@
+.applyjob-bg {
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(../../Images/banner.jpg);
+    background-position: 10% 250%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.applyjob-bg h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+}
+
+.applyjob-line div {
+    margin: 0 0.2rem;
+}
+
+.applyjob-line div:nth-child(1),
+.applyjob-line div:nth-child(3) {
+    height: 3px;
+    width: 70px;
+    background: #8d7a79;
+    border-radius: 5px;
+}
+
+.applyjob-line {
+    display: flex;
+    align-items: center;
+}
+
+.applyjob-line div:nth-child(2) {
+    width: 10px;
+    height: 10px;
+    background: #8d7a79;
+    border-radius: 50%;
+}
+
+.applyjob-text {
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.applyjob-bg .applyjob-text {
+    margin: 1.6rem 0;
+}
+
+.applyjob-heading3 {
+    padding: 1rem;
+    text-align: center;
+    color: #8d7a79;
+}
+
+.applyjob-form {
+    padding: 2rem 2rem;
+    border-top: 1px solid #c7c7c7;
+}
+
+.applyjob-form form {
+    padding-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    border: 1.5px solid #c7c7c7;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 0.6rem 0;
+    font-size: 1rem;
+    outline: 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+
+.applyjob-form > div img {
+    width: 85%;
+}
+
+.applyjob-form > div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.applyjob-submit {
+    font-size: 1rem;
+    color: #fff;
+    background: #8d7a79;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.applyjob-back {
+    font-size: 1rem;
+    color: #fff;
+    background: #756867;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.applyjob-message {
+    background-color:#8d7a79;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .applyjob-bg .text {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .applyjob-bg .text {
+        width: 50%;
+    }
+
+    .applyjob-form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+
+  

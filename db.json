@@ -1,0 +1,70 @@
+{
+  "jobs": [
+    {
+      "title": "Sales Manager",
+      "company": "SRG International",
+      "exp": "5-8",
+      "location": "Faridabad",
+      "salary": "Not disclosed",
+      "id": 1
+    },
+    {
+      "title": "Accounts Officer - Banking",
+      "company": "KAYPEE FOOD PRODUCTS",
+      "exp": "4-9",
+      "location": "Gwalior",
+      "salary": "2,75,000 - 4,00,000 PA",
+      "id": 2
+    },
+    {
+      "title": "SAP FICO Consultant",
+      "company": "Bhavana Balkrishna Govekar",
+      "exp": "10-15",
+      "location": "Mumbai",
+      "salary": "10,00,000 - 12,00,000 PA",
+      "id": 3
+    },
+    {
+      "title": "Assistant Manager - PLM",
+      "company": "Indigo Airlines",
+      "exp": "1-6",
+      "location": "remote",
+      "salary": "Not disclosed",
+      "id": 4
+    },
+    {
+      "title": "Web Logic Portal",
+      "company": "ezProHub LLC",
+      "exp": "2-5",
+      "location": "Coimbatore",
+      "salary": "Not disclosed",
+      "id": 5
+    },
+    {
+      "title": "Account Executive",
+      "company": "Hitech Information Fast Services",
+      "exp": "4-6",
+      "location": "Pune(Shukravar Peth)",
+      "salary": "3,00,000 - 5,00,000 PA",
+      "id": 6
+    },
+    {
+      "title": "ReactJS Developer",
+      "company": "Cognizant Technology Solutions",
+      "exp": "2-4",
+      "location": "Chennai",
+      "salary": "8,00,000 - 10,00,000 PA",
+      "id": 7
+    }
+  ],
+  "jobApplications": [],
+  "contactDatas": [
+    {
+      "name": "Ashok",
+      "email": "ashok@gmail.com",
+      "phone": "9876543322",
+      "message": "11111111111111",
+      "id": 1
+    }
+  ]
+}

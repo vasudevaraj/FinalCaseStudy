@@ -1,0 +1,13 @@
+.link:-webkit-any-link {
+    text-decoration: none;
+    color: var(--bs-body-bg);
+}
+  
+.link:-webkit-any-link:hover {
+    color: rgb(209, 203, 203);
+}
+
+.header-nav {
+   background-color: #8d7a79;
+}
+  

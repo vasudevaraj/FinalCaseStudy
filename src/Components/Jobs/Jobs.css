@@ -1,0 +1,51 @@
+.data {
+    text-align: start;
+}
+
+.applyLink:-webkit-any-link {
+    text-decoration: none;
+    color: var(--bs-white);
+}
+
+.applyLink:-webkit-any-link:hover {
+    color: rgb(235, 227, 227);
+}
+
+.job-company{
+    font-weight: 400;
+}
+
+.job-details {
+    font-weight: 400;
+    font-size:small;
+}
+
+.job-exp, .job-salary, .job-location {
+    padding-right: 1rem;
+}
+
+.exp-icon, .salary-icon, .location-icon {
+    padding-right: 0.3rem;
+    color: #8d7a79;
+}
+
+.job-applylink {
+    font-size: 0.9rem;
+    color: #fff;
+    background: #8d7a79;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    
+}
+
+.job-title {
+    color: #5e2724;
+}
+
+.jobs-body {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(../../Images/banner.jpg);
+    background-attachment: fixed;
+}
